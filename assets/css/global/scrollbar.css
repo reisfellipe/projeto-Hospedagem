@@ -1,12 +1,23 @@
-::-webkit-scrollbar{
-    width: 10px;
+/* Personaliza a cor do scroll da página */
+html {
+    scrollbar-color: #000 #fff;
+    scrollbar-width: thin;
 }
 
-::-webkit-scrollbar-thumb{
-    background-color: var(--cor-azul);
+::-webkit-scrollbar-track {
+    background-color: #000;
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    width: 6px;
+    height: 6px;
     border-radius: 10px;
-}
-
-::-webkit-scrollbar-track{
-    background-color: var(--cor-preto);
 }

@@ -1,9 +1,8 @@
+/* Fontes */
 @font-face {
-    font-family: 'font-bold';
-    src: url('../../files/fonts/fonte-bold.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'font-regular';
-    src: url('../../files/fonts/fonte-regular.woff2') format('woff2');
+    font-family: '';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('') format('woff');
 }

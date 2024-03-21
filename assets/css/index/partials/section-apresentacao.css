@@ -170,8 +170,8 @@
 
 
 .apresentacao .quadro.ativo img.mundo {
-    top: -530px;
-    left: -500px;
+    top: -100px;
+    left: -100px;
     width: 1500px;
     min-width: 1500px;
 }
@@ -192,9 +192,21 @@
 }
 
 
+.apresentacao .quadro.ativo img.detalhe.eua{
+    opacity: 1;
+    visibility: visible;
+}
+
+.apresentacao .quadro.ativo img.detalhe.brasil{
+    opacity: 0;
+    visibility: hidden;
+}
+
 .apresentacao .quadro img.detalhe.eua{
     opacity: 0;
     visibility: hidden;
-    top: 100px;
-    left: 100px;
+    top: 150px;
+    left: 170px;
+    width: 100%;
+    max-width: 280px;
 }

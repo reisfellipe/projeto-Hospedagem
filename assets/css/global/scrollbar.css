@@ -1,6 +1,6 @@
 /* Personaliza a cor do scroll da página */
 html {
-    scrollbar-color: #000 #fff;
+    scrollbar-color: #000;
     scrollbar-width: thin;
 }
 
@@ -16,7 +16,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #fff;
+    background-color: #333;
     width: 6px;
     height: 6px;
     border-radius: 10px;

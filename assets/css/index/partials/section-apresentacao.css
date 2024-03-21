@@ -1,0 +1,29 @@
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+    width: 100%;
+    padding: 80px;
+}
+
+.apresentacao .quadro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    background-color: #ffffff0f;
+    position: relative;
+    overflow: hidden;
+}
+
+.apresentacao .quadro img.mundo{
+    position: absolute;
+    width: 1500px;
+}
+
+.apresentacao .quadro img.detalhe.brasil{
+    
+}

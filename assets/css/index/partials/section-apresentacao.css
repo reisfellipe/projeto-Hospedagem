@@ -47,20 +47,28 @@
 }
 
 
-.apresentacao .quadro.ativo .titulo.brasil {
-    opacity: 0;
-    visibility: hidden;
-}
-
 .apresentacao .quadro.ativo .titulo.eua {
     opacity: 1;
     visibility: visible;
+}
+
+.apresentacao .quadro.ativo .titulo.brasil {
+    opacity: 0;
+    visibility: hidden;
 }
 
 .apresentacao .quadro .titulo h2 {
     font-family: var(--fonte);
     font-size: 40px;
     color: #fff;
+}
+
+
+.apresentacao .quadro .titulo h2 span{
+    font-family: var(--fonte);
+    font-size: 40px;
+    font-weight: 600;
+    color: #FF3C76;
 }
 
 
@@ -105,7 +113,7 @@
     font-family: var(--fonte);
     font-size: 20px;
     color: #fff;
-    
+    margin: 0 0 20px 0;
 }
 
 
@@ -140,7 +148,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
     width: 50%;
+    cursor: pointer;
     z-index: 2;
 }
 

@@ -3,7 +3,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(255, 255, 255);
+    /* background-color: white; */
+    background: linear-gradient(90deg, #18686E 0%, #0b2e31 100%);;
     color: black;
     height: 80vh;
     width: 100%;
@@ -61,9 +62,40 @@
     font-size: 42px;
     font-weight: 500;
     width: 570px;
+    margin: 5px 0 0 0;
 }
 
 
 .landing .landing-itens .landing-item .titulo h1 span {
     color: #2EC9D4;
+}
+
+
+.landing .landing-itens .landing-item .titulo p {
+    margin: 10px 0 20px;
+    width: 520px;
+}
+
+
+.landing .landing-itens .landing-item .titulo button {
+    display: flex;
+    align-items: center;
+    padding: 30px 20px 30px 10px;
+    height: 45px;
+    border-radius: 45px;
+    background: #2EC9D4;
+}
+
+
+.landing .landing-itens .landing-item .titulo button .round {
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+
+.landing .landing-itens .landing-item .titulo button .round img {
+    margin-top: 10px;
 }

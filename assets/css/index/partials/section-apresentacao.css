@@ -72,6 +72,15 @@
 }
 
 
+.apresentacao .quadro .titulo h2 .span-brasil{
+    font-family: var(--fonte);
+    font-size: 40px;
+    font-weight: 600;
+    color: #2EC9D4;
+}
+
+
+
 .apresentacao .quadro .titulo p {
     font-family: var(--fonte);
     font-size: 16px;

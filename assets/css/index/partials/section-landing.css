@@ -170,3 +170,29 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
+.landing .landing-itens .landing-item.dois .texto-blur.dois {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px 25px;
+    width: 320px;
+    position: absolute;
+    right: 50px;
+    bottom: 220px;
+    border-radius: 9.378px;
+    border: 0.938px solid #FFF;
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(9.37804889678955px);
+}
+
+.landing .landing-itens .landing-item.dois .texto-blur.dois h2 {
+    font-size: 50px;
+    font-weight: 600;
+    background: linear-gradient(164deg, #B3DBAC 18.01%, #29AB4C 63.75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -31,7 +31,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 400px;
+    height: 310px;
 }
 
 .landing .landing-itens .landing-item .titulo .titulo-slogan {
@@ -73,6 +73,7 @@
 
 .landing .landing-itens .landing-item .titulo p {
     margin: 10px 0 20px;
+    line-height: 1.4;
     width: 520px;
 }
 
@@ -83,6 +84,8 @@
     padding: 30px 20px 30px 10px;
     height: 45px;
     border-radius: 45px;
+    font-weight: bold;
+    color: #fff;
     background: #2EC9D4;
 }
 
@@ -99,3 +102,24 @@
 .landing .landing-itens .landing-item .titulo button .round img {
     margin-top: 10px;
 }
+
+/* Cards */
+
+.landing .landing-itens .landing-item .cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+
+.landing .landing-itens .landing-item .cards .card{
+    border-radius: 10px;
+    border: 1px solid #CFD6DA;
+    padding: 30px 20px;
+    text-align: center;
+    margin-right: 5px;
+    width: 150px;
+    height: 150px;
+} 

@@ -1,0 +1,140 @@
+.principal {
+    background-color: #fff;
+    height: 70px;
+    color: black;
+    width: 100%;
+    font-family: var(--fonte);
+}
+
+.principal .header-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Parte da direita do header */
+.principal .header-flex .header-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+}
+
+
+.principal .header-flex .header-left img.logo-nuvem {
+    padding: 10px 30px 10px 60px;
+}
+
+
+.principal .header-flex .header-left .left-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.principal .header-flex .header-left .left-item img {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+
+.principal .header-flex .header-left .left-item p {
+    font-size: 17px;
+}
+
+/* Parte da esquerda do header */
+
+.principal .header-flex .header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.principal .header-flex .header-right .right-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+
+.principal .header-flex .header-right .right-item img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.principal .header-flex .header-right .right-botao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.principal .header-flex .header-right .right-botao a {
+    background-color:#8BD42E ;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    color: white;
+    
+}
+
+
+.principal .header-flex .header-right .right-botao a img {
+    padding-right: 10px;
+}
+
+/* Faixada de baixo */
+
+.principal .pre-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+}
+
+.principal .pre-main .pre-texto p {
+    font-family: var(--fonte);
+    font-weight: 600;
+    color: #fff;
+}
+
+.principal .pre-itens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 360px;
+}
+
+.principal .pre-itens .pre-item {
+    align-items: center;
+}
+
+.principal .pre-itens .pre-item img{
+    align-items: center;
+    padding: 5px;
+}
+
+.principal .pre-itens .pre-item a{
+    color: #fff;
+    transition: all .4s;
+}
+
+
+.principal .pre-itens .pre-item a:hover{
+    color: rgb(76, 103, 185);
+}

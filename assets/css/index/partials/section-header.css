@@ -141,7 +141,7 @@
 
 .pre-itens .pre-item a{
     color: #fff;
-    font-family: var(--fonte6z);
+    font-family: var(--fonte);
     padding-right: 5px;
     transition: all .4s;
 }

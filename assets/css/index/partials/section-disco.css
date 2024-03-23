@@ -1,0 +1,122 @@
+.disco{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    font-family: var(--fonte);
+    color: black;
+    position: relative;
+}
+
+.disco .disco-imagem{
+    position: relative;
+}
+
+/* TEXTO */
+.disco .disco-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 400px;
+}
+
+.disco .disco-texto .d-texto-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 133px;
+}
+
+.disco .disco-texto .d-texto-top img {
+    width: 20px;
+    height: 20px;
+}
+
+.disco .disco-texto .d-texto-top p{
+    color: #FCAE39;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.disco .disco-texto h2 {
+    font-size: 3.3rem;
+    margin: 5px 0 15px 0;
+}
+
+
+.disco .disco-texto h2 span {
+    color: #2EC9D4;
+}
+
+.disco .disco-texto p {
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 150%; /* 25.5px */
+}
+
+/* Imagens disco */
+.disco .disco-imagem .disco-ssd {
+    position: relative;
+    width: 500px;
+}
+
+
+.disco .disco-imagem .disco-ssd .imagem.um {
+    z-index: 3;
+    position: absolute;
+    top: -200px;
+    right: 50px;
+}
+
+.disco .disco-imagem .disco-ssd .imagem.dois {
+    z-index: 2;
+    position: absolute;
+    top: -160px;
+    left: -10px;
+}
+
+.disco .disco-imagem .disco-ssd .imagem.tres {
+    z-index: 1;
+    position: absolute;
+    top: -114px;
+    left: -50px;
+}
+
+.disco .disco-imagem .disco-ssd .imagem img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Itens Cards */
+
+.disco .disco-imagem .itens-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5.288px;
+    border: 0.529px solid #0ECD68;
+    /* background: linear-gradient(90deg, #FFF 0%, #E9FBEF 52.5%, #FFF 100%);
+    backdrop-filter: blur(10px); */
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(9.37804889678955px);
+    width: 400px;
+    position: absolute;
+    bottom: -70px;
+    left: -100px;
+    z-index: 4;
+}
+
+
+.disco .disco-imagem .itens-card .card-item p {
+    font-size: 14px;
+}

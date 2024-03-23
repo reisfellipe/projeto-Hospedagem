@@ -1,4 +1,5 @@
 @import "../global/global.css";
 @import "./partials/section-apresentacao.css";
 @import "./partials/section-header.css";
-@import "./partials/section-landing.css"
+@import "./partials/section-landing.css";
+@import "./partials/section-disco.css";

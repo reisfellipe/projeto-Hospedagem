@@ -4,7 +4,20 @@
     justify-content: center;
     min-height: 100dvh;
     width: 100%;
-    padding: 80px;
+    padding: 170px 80px 80px 80px;
+    position: relative;
+}
+
+/* Landing edge */
+
+.apresentacao .landing-edge {
+    background-color: #fff;
+    /* border-bottom-right-radius: 50%; */
+    border-radius: 0 0 50% 50%;
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    top: -64px;
 }
 
 .apresentacao .quadro {

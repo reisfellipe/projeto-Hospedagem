@@ -85,7 +85,7 @@
     z-index: 1;
     position: absolute;
     top: -114px;
-    left: -50px;
+    left: -42px;
 }
 
 .disco .disco-imagem .disco-ssd .imagem img {
@@ -103,8 +103,8 @@
     justify-content: space-evenly;
     text-align: center;
     padding: 15px;
-    border-radius: 5.288px;
-    border: 0.529px solid #0ECD68;
+    border-radius: 15px;
+    border: 2px solid #0ECD68;
     /* background: linear-gradient(90deg, #FFF 0%, #E9FBEF 52.5%, #FFF 100%);
     backdrop-filter: blur(10px); */
     background: rgba(255, 255, 255, 0.50);

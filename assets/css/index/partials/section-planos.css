@@ -2,7 +2,7 @@
     border-bottom: 1px solid #CFD6DA;
     background-image: linear-gradient(180deg, #FFF 0%, #EDF6FC 100%);
     width: 100%;
-    padding: 60px 40px;
+    padding: 0px 40px 60px 40px;
     display: flex;
     flex-direction: column;
     align-items: center;

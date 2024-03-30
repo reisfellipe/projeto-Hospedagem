@@ -90,8 +90,34 @@
     position: relative;
 }
 
+
+.planos .p-cards .card.medium {
+    background: linear-gradient(180deg, #2EC9D4 0%, #FFF 38.6%);
+}
+
+
+.planos .p-cards .card.medium .mini-tag{
+    border-radius: 48.835px;
+    background: #2ba9b3;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+    width: 100px;
+    text-align: center;
+    border: 1.5px solid rgb(29, 212, 212);
+    position: absolute;
+    top: 20px;
+
+}
+
+.planos .p-cards .card.medium .mini-tag p{
+    color: #FFF;
+    font-family: var(--fonte);
+    font-size: 15px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
 .planos .p-cards .card {
-    background-color: #CFD6DA;
+    background-color: #cfd6da7b;
     border-radius: 10px;
     padding: 50px 10px 10px 10px;
     margin: 10px;
@@ -111,7 +137,8 @@
     border-radius: 10px;
     width: 230px;
     margin-bottom: 20px;
-    border: 1px solid gray;
+    border: 1px solid rgba(128, 128, 128, 0.549);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.258);
 
     position: absolute;
     top: -25px;
@@ -123,11 +150,12 @@
 
 .planos .p-cards .card .card-copy{
     text-align: center;
-    width: 80%;
+    width: 75%;
 }
 
 .planos .p-cards .card .card-copy p {
     margin-bottom: 20px;
+    font-size: 18px;
     
 }
 
@@ -159,13 +187,24 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 20px 40px;
     font-size: 1.1rem;
-    width: 250px;
+    width: 90%;
     text-align: center;
     border-radius: 30px;
     margin-bottom: 30px;
+}
+
+
+.planos .p-cards .card .card-button.medium{
+    background-color: #222;
+    color: white;
+}
+
+
+.planos .p-cards .card .card-button img{
+    margin-right: 10px;
 }
 
 .planos .p-cards .card .card-itens {
@@ -235,17 +274,18 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100px;
+    width: 100%;
     height: 100px;
     margin: 5px;
     padding: 10px;
     border-radius: 10px;
-    background-color: rgba(128, 128, 128, 0.384);
+    background-color: rgba(79, 197, 237, 0.056);
 }
 
 
 .planos .p-cards .card .card-plugins .plugins .plugin img{
     width: 30px;
+    margin: 5px 0;
 }
 
 

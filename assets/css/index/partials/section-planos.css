@@ -1,5 +1,6 @@
 .planos{
-    background-color: white;
+    border-bottom: 1px solid #CFD6DA;
+    background-image: linear-gradient(180deg, #FFF 0%, #EDF6FC 100%);
     width: 100%;
     padding: 60px 40px;
     display: flex;
@@ -36,4 +37,218 @@
     margin-bottom: 40px;
     color: black;
     font-weight: 200;
+}
+
+/* Opções ON/OFF */
+
+.planos .p-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: rgba(205, 205, 205, 0.667);
+    width: 300px;
+    border-radius: 50px;
+    font-family: var(--fonte);
+    padding: 10px 5px;
+    margin: 0 0 50px 0;
+}
+
+
+.planos .p-options .option.ativo {
+    background-color: #2EC9D4;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.planos .p-options .option {
+    padding: 20px;
+}
+
+.planos .p-options .option.anual{
+    display: flex;
+    flex-direction: row;
+}
+
+.planos .p-options .option.anual img {
+    margin-right: 5px;
+}
+
+
+/* Cards row */
+.planos .p-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px 40px;
+    font-family: var(--fonte);
+    border-radius: 15px;
+
+    position: relative;
+}
+
+.planos .p-cards .card {
+    background-color: #CFD6DA;
+    border-radius: 10px;
+    padding: 50px 10px 10px 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.planos .p-cards .card .mini-card {
+    background-color: #FFF;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 230px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+
+    position: absolute;
+    top: -25px;
+}
+
+.planos .p-cards .card .mini-card p span{
+    font-weight: bold;
+}
+
+.planos .p-cards .card .card-copy{
+    text-align: center;
+    width: 80%;
+}
+
+.planos .p-cards .card .card-copy p {
+    margin-bottom: 20px;
+    
+}
+
+.planos .p-cards .card .card-copy .price{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.planos .p-cards .card .card-copy .price h3{
+    font-size: 40px;
+    padding-top: 12px;
+    font-weight: bold;
+}
+
+
+.planos .p-cards .card .card-copy .price .price-number{
+    font-size: 80px;
+    padding: 0 5px;
+}
+
+/* botao de comprar plano */
+
+
+.planos .p-cards .card .card-button{
+    background-color:#8BD42E;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 40px;
+    font-size: 1.1rem;
+    width: 250px;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.planos .p-cards .card .card-itens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 91%;
+    text-align: center;
+}
+
+
+.planos .p-cards .card .card-itens h4 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+.planos .p-cards .card .card-itens h4 span{
+    font-weight: bold;
+}
+
+
+.planos .p-cards .card .card-itens ul{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.planos .p-cards .card .card-itens ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+
+/* Plugins tech */
+.planos .p-cards .card .card-plugins{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.planos .p-cards .card .card-plugins .plugins {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.planos .p-cards .card .card-plugins h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.planos .p-cards .card .card-plugins h3 span{
+    font-weight: bold;
+}
+
+.planos .p-cards .card .card-plugins .plugins .plugin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.384);
+}
+
+
+.planos .p-cards .card .card-plugins .plugins .plugin img{
+    width: 30px;
+}
+
+
+.planos .p-cards .card .card-plugins .plugins .plugin p {
+    font-size: 15px;
 }

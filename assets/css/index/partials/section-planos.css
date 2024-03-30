@@ -1,0 +1,39 @@
+.planos{
+    background-color: white;
+    width: 100%;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.planos .p-texto {
+    width: 100%;
+    font-family: var(--fonte);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.planos .p-texto h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+
+.planos .p-texto h2 span{
+    color: #2EC9D4;
+}
+
+
+.planos .p-texto p{
+    width: 500px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: black;
+    font-weight: 200;
+}

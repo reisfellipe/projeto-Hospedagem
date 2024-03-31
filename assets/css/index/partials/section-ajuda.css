@@ -22,10 +22,14 @@
 
 
 
-.ajuda .a-cards .a-card img{
-    width: 80px;
+.ajuda .a-cards .a-card.copy img{
+    width: 25px;
 }
 
+.ajuda .a-cards.a-card.copy .suporte{
+    display: flex;
+    flex-direction: row;
+}
 
 .ajuda .a-cards .a-card p {
     width: 70%;
@@ -43,41 +47,55 @@
     font-weight: bold;
 }
 
+.ajuda .a-cards .a-card.copy{
+    align-items: start;
+    padding-left: 20px;
+}
 
 .ajuda .a-cards .card{
     width: 500px;
 }
 
-.ajuda .a-cards .a-card.copy p{
-    width: 60%;
+.ajuda .a-cards .a-card p, h3{
+    width: 80%;
+    text-align: start;
+}
+
+.ajuda .a-cards .a-card .a-p-item{
+    width: 100%;
+    font-weight: bold;
+    color: rgb(231, 182, 20);
+    margin-left: 10px;
 }
 
 
-.ajuda .a-cards .a-card.copy button{
+.ajuda .a-cards .a-card button{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 5px 10px;
-    border-radius: 30px;
+    padding: 13px 25px 13px 10px;
+    border-radius: 40px;
     background-color: #5DC0C7;
     font-family: var(--fonte);
+    font-weight: bold;
+    color: white;
 }
 
 
-.ajuda .a-cards .a-card.copy button .round{
+.ajuda .a-cards .a-card button .round{
     border-radius: 50%;
     background-color: white;
     padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 100%;
 }
 
 
-.ajuda .a-cards .a-card.copy button .round img{
-    width: 30px;
-}
-
-.ajuda .a-cards .a-card .a-card-item img{
-    width: 25px;
+.ajuda .a-cards .a-card buntto .round img{
+    width: 35px;
+    height: 30px;
 }
 
 .ajuda .a-cards .a-card .a-card-item{
@@ -85,13 +103,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: start;
-    width: 120px;
-}
-
-.ajuda .a-cards .a-card .a-card-item .a-p-item{
-    width: 100px;
-    font-weight: bold;
-    color: rgb(192, 150, 14);
 }
 
 

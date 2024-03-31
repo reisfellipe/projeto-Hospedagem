@@ -1,0 +1,108 @@
+.ajuda .a-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 80px 30px;
+}
+
+.ajuda .a-cards .a-card{
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    height: 260px;
+}
+
+
+
+.ajuda .a-cards .a-card img{
+    width: 80px;
+}
+
+
+.ajuda .a-cards .a-card p {
+    width: 70%;
+    margin: 10px 0;
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-size: 19px;
+    font-family: var(--fonte);
+    line-height: 1.5;
+}
+
+
+.ajuda .a-cards .a-card p span{
+    font-weight: bold;
+}
+
+
+.ajuda .a-cards .card{
+    width: 500px;
+}
+
+.ajuda .a-cards .a-card.copy p{
+    width: 60%;
+}
+
+
+.ajuda .a-cards .a-card.copy button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-color: #5DC0C7;
+    font-family: var(--fonte);
+}
+
+
+.ajuda .a-cards .a-card.copy button .round{
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.ajuda .a-cards .a-card.copy button .round img{
+    width: 30px;
+}
+
+.ajuda .a-cards .a-card .a-card-item img{
+    width: 25px;
+}
+
+.ajuda .a-cards .a-card .a-card-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    width: 120px;
+}
+
+.ajuda .a-cards .a-card .a-card-item .a-p-item{
+    width: 100px;
+    font-weight: bold;
+    color: rgb(192, 150, 14);
+}
+
+
+.ajuda .a-cards .a-card h3{
+    font-size: 32px;
+    color: white;
+    font-family: var(--fonte);
+    font-weight: 500;
+}
+
+
+.ajuda .a-cards .a-card h3 span{
+    color: #5DC0C7;
+}

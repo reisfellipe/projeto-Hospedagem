@@ -1,0 +1,70 @@
+.slogan-dois{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--fonte);
+    width: 100%;
+    padding: 20px 0 80px 0;
+}
+
+.slogan-dois .s-texto{
+    text-align: center;
+
+}
+
+
+.slogan-dois .s-texto p{
+    font-size: 18px;
+}
+
+.slogan-dois .s-texto h3 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 40px 0 30px 0;
+}
+
+.slogan-dois .s-texto h3 span{
+    color: #2EC9D4;
+}
+
+.slogan-dois .s-mini-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-top: 50px;
+}
+
+
+.slogan-dois .s-mini-cards .s-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    border: 1px solid rgba(0, 0, 0, 0.411);
+    border-radius: 15px;
+    padding: 20px;
+    height: 145px;
+    margin: 0 7px;
+}
+
+.slogan-dois .s-mini-cards .s-card img{
+    margin: 0 15px;
+}
+
+
+.slogan-dois .s-mini-cards .s-card .s-card-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.slogan-dois .s-mini-cards .s-card .s-card-texto h4{
+    font-weight: bold;
+    font-size: 18px;
+}
